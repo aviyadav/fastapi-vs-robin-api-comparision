@@ -1,0 +1,13 @@
+[project]
+name = "fastapi-vs-robin-api-comparision"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.139.0",
+    "locust>=2.44.4",
+    "requests>=2.34.2",
+    "robyn[pydantic]>=0.88.0",
+    "uvicorn>=0.50.0",
+]

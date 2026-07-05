@@ -1,0 +1,25 @@
+GET http://localhost:8000/health
+
+###
+
+POST http://localhost:8000/post
+Content-Type: application/json
+
+{
+    "message": "Hello from client"
+}
+
+### Robyn API
+
+GET http://localhost:8090/health
+
+###
+
+POST http://localhost:8090/post
+Content-Type: application/json
+
+{
+    "message": "Hello from client"
+}
+
+###
